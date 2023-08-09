@@ -79,8 +79,8 @@ If the performance of certain image and video pair is not satisfactory, you coul
 ## Recycling scheme
 
 <p align="center">
-  <img src="images/pipeline2.png" width=45% /> <img src="images/He1results1.png" width=40% />
+  <img src="images/pipeline2.png" width=40% /> 
 <br>
-<ins><b><i> Prototype interface screenshots </i></b></ins>
+<ins><b><i> Illustration of the recycling scheme </i></b></ins>
 </p>
 
