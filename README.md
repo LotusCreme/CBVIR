@@ -11,7 +11,7 @@ Introduction: CBVIR-S is a system that retrieves a given query image from a give
 ## Overall scheme
 (KFE+CBIR)
 
-![Algorithm schema](./src/home page.png)
+![Algorithm schema](/src/home page.png)
 
 ### KFE module
 #### Setup
