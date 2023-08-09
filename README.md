@@ -14,7 +14,7 @@
 ## Overall scheme
 
 <p align="center">
-  <img src="images/pipeline1.png" width=60% />
+  <img src="images/pipeline1.png" width=40% />
 <br>
 <ins><b><i> Illustration of the decomposed scheme </i></b></ins>
 </p>
