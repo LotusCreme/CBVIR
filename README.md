@@ -1,5 +1,5 @@
 # CBVIR
-> A demo video [_here_](https://youtu.be/NiWZC823nag).
+> A demo video [_here_](https://youtu.be/yOIuuZTh_Qc).
 
 ## Table of contents
 * [General info](#general-information)
