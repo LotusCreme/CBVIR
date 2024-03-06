@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LotusCreme/CBVIR">
-    <img src="images/git-logo.png" alt="Logo" width="90" height="65">
+    <img src="images/git-logo.png" alt="Logo" width="225" height="162">
   </a>
 
   <p align="center">
