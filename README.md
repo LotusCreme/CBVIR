@@ -1,18 +1,61 @@
-# CBVIR
-> Not completed yet, currently private repository......
-> A demo video [_here_](https://youtu.be/yOIuuZTh_Qc).
+<a name="readme-top"></a>
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/LotusCreme/CBVIR">
+    <img src="images/git-logo.png" alt="Logo" width="90" height="65">
+  </a>
+
+  <p align="center">
+    An efficient visual content retrieval model
+    <br />
+<!--     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>     <br />
+    <br /> -->
+    <a href="https://www.youtube.com/watch?v=yOIuuZTh_Qc">Watch Intro Video</a>
+    ·
+    <a href="https://github.com/LotusCreme/CBVIR/issues">Report Issues or Ask Questions</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">How to use</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#general-information">General info</a></li>
+    <li><a href="#model-pipeline">Model pipeline</a></li>
+    <li><a href="#how-to-use">How to use</a>
+      <ul>
+          <li><a href="#kfe-module">KFE module</a></li>
+      </ul>
+      <ul>
+          <li><a href="#cbir-module">CBIR module</a></li>
+      </ul>
+    </li>
+    <li><a href="#gui-prototype">GUI prototype</a></li>
+    <li><a href="#other-notes">Other Notes</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+<!--
 ## Table of contents
 * [General info](#general-information)
 * [Overall scheme](#overall-scheme)
+* [Use Guide](#how-to-use)
 * [GUI prototype](#gui-prototype)
+-->
 
 ## General information
 **Full name:** Content-based Video Image Retrieval System (CBVIR-S)
 
 **Introduction:** CBVIR-S is a system that retrieves a given query image from a given video, also providing the temporal indices of corresponding retrieval results. The autors are Master students in TU Delft EEMCS. The testing dataset of CBVIR-S is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. And the codes are released under MIT License. The MIT License grants users the right to use, copy, modify, merge, distribute and sublicense, free of charge.
 
-## Overall scheme
+## Model pipeline
 
 <p align="center">
   <img src="images/pipeline1.png" width=40% />
@@ -20,7 +63,7 @@
 <ins><b><i> Illustration of the decomposed scheme </i></b></ins>
 </p>
 
-
+## How to use
 ### KFE module
 #### Setup
 - Create a virtual environment
@@ -76,8 +119,24 @@ By simply uploading your query image and video, you will get the temporal locati
 If the performance of certain image and video pair is not satisfactory, you could also adjust the "similarity threshold" in utils/KFE_module or "thr" in utils/CBIR_module. These two parameters will be adjustable in "Settings" in the GUI prototype in the near future. :)
 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Recycling scheme
+## Other Notes
+### ENGINEERING HISTORICAL MEMORY (EHM)
+<div align="center">
+  <a href="https://engineeringhistoricalmemory.com">
+    <img src="images/EHM.png" alt="Logo" width="240" height="44">
+  </a>
+</div>
+
+EHM is an amazing digital history gallery with diverse visualization solutions and interactive exploration options. **Dr. Andrea Nanetti from NTU** first theorised Engineering Historical Memory (EHM) when he was Visiting Scholar at Princeton University in 2007. The first EHM tests on highly cross-linked historical data have been published in Italy in 2008 (local urban historical memory transmission), 2010 (global  views and networks), and 2011 (regional man-heritage-landscape systems). These pioneering research and publication projects are at the basis of the subsequent and related digital humanities projects run by the EHM international initiative.
+
+For more information, please visit [https://engineeringhistoricalmemory.com](https://engineeringhistoricalmemory.com)
+
+
+
+### Recycling scheme
+This is a baseline scheme to recycle the previously extracted features in two stages to save time for the whole processing, but building and choosing suitable network faces challenges. Because, meeting the requirements for efficient features in the KFE stage and for smart and comprehensive features for the CBIR stage to guarantee accuracy with one kind of feature is not suitable.
 
 <p align="center">
   <img src="images/pipeline2.png" width=40% /> 
@@ -85,3 +144,30 @@ If the performance of certain image and video pair is not satisfactory, you coul
 <ins><b><i> Illustration of the recycling scheme </i></b></ins>
 </p>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Sinian Li - [@Email address](lixiaoxiao0124@gmail.com) - lixiaoxiao0124@gmail.com
+
+Doruk Barokas Profeta - [@Email address](barokasdoruk@gmail.com) - barokasdoruk@gmail.com
+
+Project Link: [https://github.com/LotusCreme/CBVIR](https://github.com/LotusCreme/CBVIR)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+We would like to express our sincere appreciation to Dr. Andrea Nanetti for his support in this project in dataset preparation and the meticulous construction of the historical dataset, which greatly enhanced the quality of our research.
