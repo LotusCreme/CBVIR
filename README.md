@@ -95,7 +95,7 @@ source /path/to/new/virtual/environment/bin/activate
 pip install env_list.txt
 ```
 
-
+#### Run
 - Run in the command line:
   
   For color-based features:
