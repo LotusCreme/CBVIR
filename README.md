@@ -73,19 +73,27 @@
 #### Setup
 - Create a virtual environment
 
-```cd /home/user/myproject```
+```
+cd /home/user/myproject
+```
 
-```python3 -m venv /path/to/new/virtual/environment```
+```
+python3 -m venv /path/to/new/virtual/environment
+```
 
 - Activate the virtual environment
 
-`source /path/to/new/virtual/environment/bin/activate`
+```
+source /path/to/new/virtual/environment/bin/activate
+```
 
 (To deactivate, simply use command `deactivate`)
 
 - Install the required packages
 
-`pip install env_list.txt`
+```
+pip install env_list.txt
+```
 
 
 - Run in the command line:
@@ -94,14 +102,31 @@
   
   For DL-based features `python3 DL_based_KFE.py`
   
-  Or click run button.
+  Or click run button if you are using VScode.
 
 ### CBIR module
+**Installation Guideline:**
+
+To run the system, first clone the repository. To install the correct packages, change the directory to the folder that contains the environment.yml file, build the environment, and install packages by using the following command:
+
+```
+conda env create -f environment.yml
+```
+
+Next, download the solar global model that can be found [here](https://imperialcollegelondon.box.com/shared/static/fznpeayct6btel2og2wjjgvqw0ziqnk4.pth). Move the downloaded model to the following folder: 
+
+```
+../Efficient-CBVIR/featureextraction/solar/data/networks/
+```
 
 ## GUI prototype
-To use the GUI prototype, you can open the file "demo.py" in "CBVIR_GUI" and run it. 
+To use the GUI prototype, you can open the file "demo.py" in "CBVIR_GUI" and run it. (The environment is the same as KFE module, see the guide above)
 
-By simply uploading your query image and video, you will get the temporal location of the target image. 
+1. By clicking the `Start` button, we can go to the upload page.
+2. Uploading your query image and video can be done simply by clicking the corresponding buttons, navigating to their desired files within their folders, and selecting the target image and video.
+3. You should click the `Run` button after successfully uploading the items.
+4. As the processing commences, informative labels will appear to indicate the progress.
+5. Then, you will be able to access the results by clicking the `Click to See Results` button, and you will get the temporal location of the target image. 
 
 <p align="center">
   <img src="images/home_page.png" width=45% /> <img src="images/He1results1.png" width=45% />
@@ -121,7 +146,7 @@ By simply uploading your query image and video, you will get the temporal locati
 </p>
 
 
-If the performance of certain image and video pair is not satisfactory, you could also adjust the "similarity threshold" in utils/KFE_module or "thr" in utils/CBIR_module. These two parameters will be adjustable in "Settings" in the GUI prototype in the near future. :)
+If the performance of certain image and video pair is not satisfactory, you could also adjust the **similarity threshold** in `utils/KFE_module` or **thr** in `utils/CBIR_module`. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
