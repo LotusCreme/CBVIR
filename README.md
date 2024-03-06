@@ -53,7 +53,12 @@
 ## General information
 **Full name:** Content-based Video Image Retrieval System (CBVIR-S)
 
-**Introduction:** CBVIR-S is a system that retrieves a given query image from a given video, also providing the temporal indices of corresponding retrieval results. The autors are Master students in TU Delft EEMCS. The testing dataset of CBVIR-S is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. And the codes are released under MIT License. The MIT License grants users the right to use, copy, modify, merge, distribute and sublicense, free of charge.
+**Introduction:** CBVIR-S is a system that retrieves a given query image from a given video, also providing the temporal indices of corresponding retrieval results. The autors are Master students in TU Delft EEMCS. And this project is related to our Master's theses. You could also check out our theses via following links:
+
+- [x] Sinian Li: http://resolver.tudelft.nl/uuid:d16300c5-6988-4172-8c20-0e2dfff8949f
+- [x] Doruk Barokas Profeta: http://resolver.tudelft.nl/uuid:751092b8-1b3d-4335-98bd-cc26e69d374c
+
+**Note** One of the testing datasets of CBVIR-S: Historical figures, is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. 
 
 ## Model pipeline
 
@@ -68,9 +73,9 @@
 #### Setup
 - Create a virtual environment
 
-`cd /home/user/myproject`
+```cd /home/user/myproject```
 
-`python3 -m venv /path/to/new/virtual/environment`
+```python3 -m venv /path/to/new/virtual/environment```
 
 - Activate the virtual environment
 
