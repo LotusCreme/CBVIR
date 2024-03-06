@@ -14,9 +14,9 @@
     <br /> -->
     <a href="https://www.youtube.com/watch?v=yOIuuZTh_Qc">Watch Intro Video</a>
     ·
-    <a href="https://github.com/LotusCreme/CBVIR/issues">Report Issues or Ask Questions</a>
+    <a href="https://github.com/LotusCreme/CBVIR/issues">Report Issues</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">How to use</a>
+    <a href=#how-to-use">How to use</a>
   </p>
 </div>
 
