@@ -98,9 +98,15 @@ pip install env_list.txt
 
 - Run in the command line:
   
-  For color-based features `python3 color-based/main_multiplevideo.py`
+  For color-based features:
+  ```
+  python3 color-based/main_multiplevideo.py
+  ```
   
-  For DL-based features `python3 DL_based_KFE.py`
+  For DL-based features:
+  ```
+  python3 DL_based_KFE.py
+  ```
   
   Or click run button if you are using VScode.
 
