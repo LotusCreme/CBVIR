@@ -16,7 +16,7 @@
     ·
     <a href="https://github.com/LotusCreme/CBVIR/issues">Report Issues</a>
     ·
-    <a href=#how-to-use">How to use</a>
+    <a href="#how-to-use">How to use</a>
   </p>
 </div>
 
