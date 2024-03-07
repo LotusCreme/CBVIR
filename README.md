@@ -125,12 +125,12 @@ To run the system, first clone the repository. To install the correct packages, 
 conda env create -f environment.yml
 ```
 
-Next, download the solar global model that can be found [here](https://imperialcollegelondon.box.com/shared/static/fznpeayct6btel2og2wjjgvqw0ziqnk4.pth). Move the downloaded model to the following folder: 
+Next, download the SOLAR global model that can be found [here](https://imperialcollegelondon.box.com/shared/static/fznpeayct6btel2og2wjjgvqw0ziqnk4.pth). Move the downloaded model to the following folder: 
 
 ```
 ../Efficient-CBVIR/featureextraction/solar/data/networks/
 ```
-For more information about the Second-Order Loss and Attention model, please read ["SOLAR: Second-Order Loss and Attention for Image Retrieval, Ng, Tony, ECCV, 2020"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7XUqeKEAxXP6wIHHYq0DTcQFnoECBMQAQ&url=https%3A%2F%2Fwww.ecva.net%2Fpapers%2Feccv_2020%2Fpapers_ECCV%2Fpapers%2F123700256.pdf&usg=AOvVaw2QIOU6-82OpK5xbX1efwUt&opi=89978449) or find more through their [GitHub page](https://github.com/tonyngjichun/SOLAR.git).
+For more information about the Second-Order Loss and Attention model, please read ["SOLAR: Second-Order Loss and Attention for Image Retrieval, Ng, Tony, ECCV 2020"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7XUqeKEAxXP6wIHHYq0DTcQFnoECBMQAQ&url=https%3A%2F%2Fwww.ecva.net%2Fpapers%2Feccv_2020%2Fpapers_ECCV%2Fpapers%2F123700256.pdf&usg=AOvVaw2QIOU6-82OpK5xbX1efwUt&opi=89978449) or find more through their [GitHub page](https://github.com/tonyngjichun/SOLAR.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
