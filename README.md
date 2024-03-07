@@ -60,6 +60,9 @@
 
 **Note** One of the testing datasets of CBVIR-S: Historical figures, is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## Model pipeline
 
 <p align="center">
@@ -67,6 +70,9 @@
 <br>
 <ins><b><i> Illustration of the decomposed scheme </i></b></ins>
 </p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## How to use
 ### KFE module
@@ -110,6 +116,8 @@ pip install env_list.txt
   
   Or click run button if you are using VScode.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### CBIR module
 **Installation Guideline:**
 
@@ -124,6 +132,8 @@ Next, download the solar global model that can be found [here](https://imperialc
 ```
 ../Efficient-CBVIR/featureextraction/solar/data/networks/
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## GUI prototype
 To use the GUI prototype, you can open the file `demo.py` in `CBVIR_GUI` and run it. (The environment is the same as KFE module, see the guide above)
@@ -169,7 +179,7 @@ EHM is an amazing digital history gallery with diverse visualization solutions a
 
 For more information, please visit [https://engineeringhistoricalmemory.com](https://engineeringhistoricalmemory.com)
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Recycling scheme
 This is a baseline scheme to recycle the previously extracted features in two stages to save time for the whole processing, but building and choosing suitable network faces challenges. Because, meeting the requirements for efficient features in the KFE stage and for smart and comprehensive features for the CBIR stage to guarantee accuracy with one kind of feature is not suitable.
@@ -207,3 +217,5 @@ Project Link: [https://github.com/LotusCreme/CBVIR](https://github.com/LotusCrem
 ## Acknowledgments
 
 We would like to express our sincere appreciation to Dr. Andrea Nanetti for his support in this project in dataset preparation and the meticulous construction of the historical dataset, which greatly enhanced the quality of our research.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
