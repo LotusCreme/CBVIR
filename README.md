@@ -199,9 +199,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Sinian Li - [@Email address](lixiaoxiao0124@gmail.com) - lixiaoxiao0124@gmail.com
+Sinian Li - [lixiaoxiao0124@gmail.com](lixiaoxiao0124@gmail.com)
 
-Doruk Barokas Profeta - [@Email address](barokasdoruk@gmail.com) - barokasdoruk@gmail.com
+Doruk Barokas Profeta - [barokasdoruk@gmail.com](barokasdoruk@gmail.com)
 
 Project Link: [https://github.com/LotusCreme/CBVIR](https://github.com/LotusCreme/CBVIR)
 
