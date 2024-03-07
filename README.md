@@ -60,8 +60,6 @@
 
 **Note** One of the testing datasets of CBVIR-S: Historical figures, is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Model pipeline
 
@@ -197,9 +195,6 @@ This is a baseline scheme to recycle the previously extracted features in two st
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -209,8 +204,6 @@ Sinian Li - [@Email address](lixiaoxiao0124@gmail.com) - lixiaoxiao0124@gmail.co
 Doruk Barokas Profeta - [@Email address](barokasdoruk@gmail.com) - barokasdoruk@gmail.com
 
 Project Link: [https://github.com/LotusCreme/CBVIR](https://github.com/LotusCreme/CBVIR)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
