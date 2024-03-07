@@ -126,7 +126,7 @@ Next, download the solar global model that can be found [here](https://imperialc
 ```
 
 ## GUI prototype
-To use the GUI prototype, you can open the file "demo.py" in "CBVIR_GUI" and run it. (The environment is the same as KFE module, see the guide above)
+To use the GUI prototype, you can open the file `demo.py` in `CBVIR_GUI` and run it. (The environment is the same as KFE module, see the guide above)
 
 1. By clicking the `Start` button, we can go to the upload page.
 2. Uploading your query image and video can be done simply by clicking the corresponding buttons, navigating to their desired files within their folders, and selecting the target image and video.
