@@ -116,7 +116,7 @@ pip install env_list.txt
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### CBIR module
+### MoReSo module
 **Installation Guideline:**
 
 To run the system, first clone the repository. To install the correct packages, change the directory to the folder that contains the environment.yml file, build the environment, and install packages by using the following command:
@@ -131,6 +131,9 @@ Next, download the SOLAR global model that can be found [here](https://imperialc
 ../Efficient-CBVIR/featureextraction/solar/data/networks/
 ```
 For more information about the Second-Order Loss and Attention model, please read ["SOLAR: Second-Order Loss and Attention for Image Retrieval, Ng, Tony, ECCV 2020"](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiph7XUqeKEAxXP6wIHHYq0DTcQFnoECBMQAQ&url=https%3A%2F%2Fwww.ecva.net%2Fpapers%2Feccv_2020%2Fpapers_ECCV%2Fpapers%2F123700256.pdf&usg=AOvVaw2QIOU6-82OpK5xbX1efwUt&opi=89978449) or find more through their [GitHub page](https://github.com/tonyngjichun/SOLAR.git).
+
+In this module, the `offline.py` and `online.py` files are two decomposed stages, which includes Shortlisting of keyframes and High-level Feature Extraction with Searching respectively. The features are stored for each run, enabling faster performance progressively as more input queries are inserted into the system.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
