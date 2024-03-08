@@ -144,7 +144,7 @@ method = ResNetFeat()
 similarity_threshold = 0.98
 dsample_rate = 15
 
-global_path = ".../KFE_deep_learning" # set it as the parent folder with utilities.py in it
+global_path = ".../KFE_deep_learning" # set it as the parent folder with utils folder in it
 data_path = os.path.join(global_path, "dataset")  #
 iteration_times = {}
 initiation_times = {}
