@@ -24,7 +24,6 @@ model_urls = {
     'resnet152': 'https://download.pytorch.org/models/resnet152-b121ed2d.pth',
 }
 
-
 class ResidualNet(ResNet):
     def __init__(self, model=RES_model, pretrained=True):
         if model == "resnet18":
@@ -86,6 +85,7 @@ class ResNetFeat(object):
         video_name = os.path.basename(video_path)
         print("--- extracting features of all frames..., video_index=%s, model=%s, layer=%s ---" % (video_name, RES_model, pick_layer))
 
+        # features
         samples = []
         for idx in tqdm(frame_set):
             img = frame_set[idx]
