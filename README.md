@@ -64,7 +64,7 @@
 ## Model pipeline
 
 <p align="center">
-  <img src="images/pipeline1.png" width=40% />
+  <img src="images/pipeline.png" width=35% />
 <br>
 <ins><b><i> Illustration of the decomposed scheme </i></b></ins>
 </p>
