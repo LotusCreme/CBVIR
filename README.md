@@ -58,7 +58,7 @@
 - [x] Sinian Li: http://resolver.tudelft.nl/uuid:d16300c5-6988-4172-8c20-0e2dfff8949f
 - [x] Doruk Barokas Profeta: http://resolver.tudelft.nl/uuid:751092b8-1b3d-4335-98bd-cc26e69d374c
 
-**Note** One of the testing datasets of CBVIR-S: Historical figures, is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. 
+**Note:** One of the testing datasets of CBVIR-S: Historical figures, is provided by Andrea Natetti in Nanyang Technological University, School of Art, Design and Media. 
 
 
 ## Model pipeline
